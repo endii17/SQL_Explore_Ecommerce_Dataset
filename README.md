@@ -1,16 +1,20 @@
 # [SQL] Explore Ecommerce Dataset
+
 ## I. Introduction
 This project contains an eCommerce dataset that I will explore using SQL on [Google BigQuery](https://cloud.google.com/bigquery). The dataset is based on the Google Analytics public dataset and contains data from an eCommerce website.
+
 ## II. Requirements
 - [Google Cloud Platform account](https://cloud.google.com/?hl=en)
 - Project on Google Cloud Platform
 - [Google BigQuery API](https://cloud.google.com/bigquery/docs/enable-transfer-service#:~:text=Enable%20the%20BigQuery%20Data%20Transfer%20Service,-Before%20you%20can&text=Open%20the%20BigQuery%20Data%20Transfer,Click%20the%20ENABLE%20button.)
 - [SQL query editor](https://cloud.google.com/bigquery)
+  
 ## III. Dataset Access
 The eCommerce dataset is stored in a public Google BigQuery dataset. To access the dataset, follow these steps:
 - Log in to your Google Cloud Platform account and create a new project.
 - Navigate to the BigQuery console and select your newly created project.
 - At the Explorer, search "ga_sessions_" to open it.
+  
 ## IV. Exploring the Dataset
 In this project, I will write 08 queries in Bigquery for this Ecommerce dataset
 
@@ -83,6 +87,12 @@ In this project, I will write 08 queries in Bigquery for this Ecommerce dataset
   ![image](https://github.com/user-attachments/assets/1d5e603c-232c-4dbc-b655-8e2d96b050e9)
   ![image](https://github.com/user-attachments/assets/a070f6af-6623-48b5-b8e0-a14e9a2818d3)
 
+# V. Conclusion
+- In conclusion, my exploration of the eCommerce dataset using SQL on Google BigQuery based on the Google Analytics dataset has revealed several interesting insights.
+- By exploring eCommerce dataset, I have gained valuable information about total visits, pageview, transactions, bounce rate, and revenue per traffic source,.... which could inform future business decisions.
+- To deep dive into the insights and key trends, the next step will visualize the data with some software like Power BI,Tableau,...
+- Overall, this project has demonstrated the power of using SQL and big data tools like Google BigQuery to gain insights into large datasets.
 - Query result
 
   ![image](https://github.com/user-attachments/assets/7de3fa51-141e-4823-9253-3b02ea1e163f)
+
