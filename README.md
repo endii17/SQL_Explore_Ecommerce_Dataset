@@ -1,4 +1,4 @@
-# SQL_Ecommerce_Exploring
+# SQL_Ecommerce_Exploring_Dataset
 
 ## Table of Contents:
 1. [Introduction](#clean_data)
