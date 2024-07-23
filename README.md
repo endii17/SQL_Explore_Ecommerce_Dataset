@@ -67,3 +67,21 @@ In this project, I will write 08 queries in Bigquery for this Ecommerce dataset
 - Query result
 
   ![image](https://github.com/user-attachments/assets/75ef39d7-2223-49cd-a963-43f440b6a729)
+
+### Query 07: Other products purchased by customers who purchased product "YouTube Men's Vintage Henley" in July 2017. Output should show product name and the quantity was ordered.
+- SQL code
+  
+  ![image](https://github.com/user-attachments/assets/cbdd898f-b9be-4bc1-93b5-a9f549a61a7c)
+
+- Query result
+
+  ![image](https://github.com/user-attachments/assets/75cd79d4-f95a-4929-9547-b22915a49a76)
+
+### Query 08: Calculate cohort map from product view to addtocart to purchase in January, February and March 2017. 
+  
+  ![image](https://github.com/user-attachments/assets/403fbfca-d710-446d-94fe-594007b875ee)
+  ![image](https://github.com/user-attachments/assets/170e83ca-5a4a-47a0-bb3d-ce950687d9ee)
+  
+- Query result
+
+  ![image](https://github.com/user-attachments/assets/7de3fa51-141e-4823-9253-3b02ea1e163f)
