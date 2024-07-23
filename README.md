@@ -78,7 +78,8 @@ In this project, I will write 08 queries in Bigquery for this Ecommerce dataset
   ![image](https://github.com/user-attachments/assets/75cd79d4-f95a-4929-9547-b22915a49a76)
 
 ### Query 08: Calculate cohort map from product view to addtocart to purchase in January, February and March 2017. 
-  
+- SQL code
+    
   ![image](https://github.com/user-attachments/assets/1d5e603c-232c-4dbc-b655-8e2d96b050e9)
   ![image](https://github.com/user-attachments/assets/a070f6af-6623-48b5-b8e0-a14e9a2818d3)
 
