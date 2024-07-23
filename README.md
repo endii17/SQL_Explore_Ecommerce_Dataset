@@ -16,7 +16,9 @@ In this project, I will write 08 queries in Bigquery for this Ecommerce dataset
 
 ### Query 01: calculate total visit, pageview, transaction for Jan, Feb and March 2017 (order by month)
 - SQL code
+  
   ![Screenshot 2024-07-23 212615](https://github.com/user-attachments/assets/ee988f8c-b087-4025-9586-20d987040c3a)
 - Query result
+  
   ![a2](https://github.com/user-attachments/assets/9a5ab603-1dc4-42f8-bebc-989decf2c045)
 
