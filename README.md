@@ -1,37 +1,29 @@
 # SQL_Ecommerce_Exploring
 
 ## Table of Contents:
-1. [Introduction and Motivation](#data)
-2. [The goal of creating this project](#clean_data)
+1. [Introduction](#clean_data)
+2. [Goals](#clean_data)
 3. [Import raw data](#cau3)
 4. [Read and explain dataset](#cau4)
-5. [ Data Processing & Exploratory Data Analysis](#cau5)
-6. [Ask questions and solve it](#cau6)
-7. [Conclusion](#cau7)
+5. [Exploring the Dataset](#cau5)
+6. [Conclusions](#cau6)
 
-<div id='data'/>
-  
-## 1. Introduction and Motivation
 
-The eCommerce dataset is stored in a public Google BigQuery dataset. This dataset contains information about user sessions on a website collected from Google Analytics in 2017.
+## 1. Introduction
+- The eCommerce dataset is stored in a public Google BigQuery dataset. This dataset contains information about user sessions on a website collected from Google Analytics in 2017.
 
-Based on the eCommerce dataset, the author perform queries to analyze website activity in 2017, such as calculating bounce rate, identifying days with the highest revenue, analyzing user behavior on pages, and various other types of analysis. This project aims to have an outlook on the business situation, marketing activity efficiency analyzing the products.
+- Based on the eCommerce dataset, the author perform queries to analyze website activity in 2017, such as calculating bounce rate, identifying days with the highest revenue, analyzing user behavior on pages, and various other types of analysis. This project aims to have an outlook on the business situation, marketing activity efficiency analyzing the products.
 
-To query and work with this dataset, the author uses the Google BigQuery tool to write and execute SQL queries.
+- To query and work with this dataset, the author uses the Google BigQuery tool to write and execute SQL queries.
 
-<div id='clean_data'/>
-  
-## 2. The goal of creating this project
+## 2. Goals
 - Overview of website activity
 - Bounce rate analysis
 - Revenue analysis
 - Transactions analysis
 - Products analysis
 
-<div id='cau3'/>
-  
 ## 3. Import raw data
-  
 The eCommerce dataset is stored in a public Google BigQuery dataset. To access the dataset, follow these steps:
 - Log in to your Google Cloud Platform account and create a new project.
 - Navigate to the BigQuery console and select your newly created project.
@@ -39,10 +31,7 @@ The eCommerce dataset is stored in a public Google BigQuery dataset. To access t
 - Enter the project ID **"bigquery-public-data.google_analytics_sample.ga_sessions"** and click "Enter".
 - Click on the **"ga_sessions_"** table to open it.
   
-<div id='cau4'/>
-  
 ## 4. Read and explain dataset
-
 https://support.google.com/analytics/answer/3437719?hl=en
   | Field Name                       | Data Type | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |----------------------------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -64,8 +53,6 @@ https://support.google.com/analytics/answer/3437719?hl=en
 | hits.product.v2ProductName       | STRING    | Product Name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | fullVisitorId                    | STRING    | The unique visitor ID.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
-<div id='cau5'/>
-  
 ## 5. Exploring the Dataset
 In this project, I will write 08 queries in Bigquery for this Ecommerce dataset
 
@@ -263,7 +250,7 @@ group by month;
 ### Query 07: Other products purchased by customers who purchased product "YouTube Men's Vintage Henley" in July 2017. Output should show product name and the quantity was ordered.
 - SQL code
   
-  ~~~~sql
+~~~~sql
 with buyer_list as(
     SELECT
         distinct fullVisitorId
@@ -357,8 +344,8 @@ order by pv.month;
 |   2 | 201702   |              21489 |             7360 |            2060 |              34.25 |            9.59 |
 |   3 | 201703   |              23549 |             8782 |            2977 |              37.29 |           12.64 |
 
-# 6. Conclusion
-- In conclusion, my exploration of the eCommerce dataset using SQL on Google BigQuery based on the Google Analytics dataset has revealed several interesting insights.
-- By exploring eCommerce dataset, I have gained valuable information about total visits, pageview, transactions, bounce rate, and revenue per traffic source,.... which could inform future business decisions.
-- To deep dive into the insights and key trends, the next step will visualize the data with some software like Power BI,Tableau,...
-- Overall, this project has demonstrated the power of using SQL and big data tools like Google BigQuery to gain insights into large datasets.
+# 6. Conclusions
+- This is the author's opportunity to learn about the marketing industry and the customer journey through this e-commerce dataset
+- In analyzing the e-commerce dataset using BigQuery, the author understands customer behavior through the bounce rate, transaction, revenue, visit, and purchase.
+- The author gained insights into which marketing channels drive traffic and sales by examining referral sources. Investing resources in effective channels and optimizing underperforming ones can improve marketing ROI.
+- In conclusion, exploring the e-commerce dataset on BigQuery unearthed a wealth of insights critical for strategic decision-making to help the business can optimize operations, enhance customer experiences, and drive revenue.
