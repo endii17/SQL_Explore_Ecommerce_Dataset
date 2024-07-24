@@ -1,4 +1,4 @@
-# [SQL] Ecommerce Exploring Dataset
+# [SQL] Ecommerce Dataset Exploring
 
 ## Table of Contents:
 1. [Introduction](#clean_data)
